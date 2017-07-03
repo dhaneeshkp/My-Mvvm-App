@@ -27,7 +27,7 @@ namespace MyMvvmApp.Droid.ViewModel
         public MainViewModel(INavigationService navigationService)
         {
             _navigationService = navigationService;
-            NavigateCommand = new Command(() => Navigate());
+            NavigateCommand = new Command(() => Navigate()); 
         }
 
         private void Navigate()

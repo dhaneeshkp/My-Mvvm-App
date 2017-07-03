@@ -20,7 +20,7 @@ namespace MyMvvmApp.Droid
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
 
-          //  LoadApplication(new AppStart());
+             LoadApplication(new AppStart());
         }
     }
 }
